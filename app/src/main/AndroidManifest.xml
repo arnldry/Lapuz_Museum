@@ -13,10 +13,14 @@
         android:theme="@style/Theme.LapuzArnoldLab3">
         <activity
             android:name=".TicketingActivity"
-            android:exported="false"
+            android:exported="true"
             android:label="@string/title_activity_ticketing"
             android:theme="@style/Theme.LapuzArnoldLab3" />
-        <activity android:name=".ExploreActivity" />
+
+        <activity android:name=".ExploreActivity"
+
+
+            />
         <activity
             android:name=".MainActivity"
             android:exported="true"

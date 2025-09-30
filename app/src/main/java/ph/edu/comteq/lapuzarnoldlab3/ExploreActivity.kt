@@ -117,7 +117,9 @@ fun Explore(modifier: Modifier = Modifier) {
                 )
                 Row(
                     verticalAlignment = Alignment.CenterVertically,
-                    modifier = Modifier.clickable {}
+                    modifier = Modifier.clickable {
+                        val intent = Intent(context, TicketingActivity::class.java)
+                        context.startActivity(intent)}
                 ) {
                     //Ticket link
                     Text(
