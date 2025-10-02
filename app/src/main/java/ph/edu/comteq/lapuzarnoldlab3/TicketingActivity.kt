@@ -245,6 +245,7 @@ fun Ticketing(modifier: Modifier = Modifier) {
                 fontFamily = playfairdisplayregular,
                 color = Color.Black
             )
+
             Button(
                 modifier = Modifier.padding(5.dp),
                 onClick = { /*todo*/ },
