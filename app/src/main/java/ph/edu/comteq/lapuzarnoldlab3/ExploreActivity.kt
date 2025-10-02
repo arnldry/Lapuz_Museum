@@ -119,7 +119,8 @@ fun Explore(modifier: Modifier = Modifier) {
                     verticalAlignment = Alignment.CenterVertically,
                     modifier = Modifier.clickable {
                         val intent = Intent(context, TicketingActivity::class.java)
-                        context.startActivity(intent)}
+                        context.startActivity(intent)
+                    }
                 ) {
                     //Ticket link
                     Text(
@@ -235,8 +236,7 @@ fun Explore(modifier: Modifier = Modifier) {
                 // Visit Gallery button
                 Button(
                     onClick = {
-                        val intent = Intent(context, MainActivity::class.java)
-                        context.startActivity(intent)
+                       /*TODO*/
                     },
                     modifier = Modifier
                         .fillMaxWidth()
